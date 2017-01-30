@@ -1,0 +1,8 @@
+         #class           Lenet                VGG/bottlenet ResNet Inception
+CIFAR    10         0.515(val)/0.514(test)      0.73(val)    0.73    0.66
+ 
+Traffic  43         0.939(val)/0.851(test)      0.87(val)    0.81    0.75
+
+It shows that training using LeNet probably get overfitting, and CIFAR is more difficult than Traffic
+
+However, using pre-trained features, CIFAR benefit more, and has better results. Probably because pretrained features involve classes in CIFAR too, while not so for Traffic
